@@ -1,4 +1,4 @@
-# Information Visualization - Assingment 4 - Semantic Zoom and Magic Lenses
+# InfoVis Assignment 4
 
 Based on the files and code from https://js.cytoscape.org/demos/colajs-graph/
 
