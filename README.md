@@ -1,4 +1,4 @@
-# Information Visualization - Assignment 4 - Semantic Zoom and Magic Lenses
+# Information Visualization - Assingment 4 - Semantic Zoom and Magic Lenses
 
 Based on the files and code from https://js.cytoscape.org/demos/colajs-graph/
 
@@ -23,12 +23,3 @@ You focus on simulating the lens behavior and adding functionality to your html 
 Open each file and check out the comments (in gray) for more info.
 
 Good luck, and have fun!
-
-Reminder on local development: 
-Pre-requisite: Node.js. Install serve using:
-
-`npm install serve --global`
-
-And start the application using
-
-`serve -p 8000`

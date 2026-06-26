@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Information Visualization - Zooming and Lenses</title>
+    <title>InfoVis - Zooming & Lenses</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -30,6 +30,28 @@
         your controls can go here  
 
       -->
+      
+      <div>
+        Circle radius: <output></output>
+        <input
+          id="radiusRange"
+          autocomplete="off"
+          type="range"
+          min="25"
+          max="250"
+        />
+      </div>
+      <div style="margin-top: 0.3cm">
+        Lens functionality:
+        <select id="modeSelect" autocomplete="off">
+          <option value="node">node change</option>
+          <option value="edge">edge highlight</option>
+          <option value="fish">fish</option>
+        </select>
+      </div>
+      
+      <input type="checkbox" id="semantic-or-lens" name="semantic-or-lens" value="semantic">
+      <label for="semantic-or-lens">Semantic Zoom On</label><br>
     </div>
     
   </body>
